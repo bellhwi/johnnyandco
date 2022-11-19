@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+  --primary-color: #80d8d0;
+  --secondary-color: #5a5a5a;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 main {
   min-height: 80vh;
 }
 
+button {
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 1px;
+}
+
 h3 {
   padding: 1rem 0;
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -16,6 +38,11 @@ h2 {
   padding: 0.5rem 0;
 }
 
+.bg-navbar {
+  background-color: var(--primary-color) !important;
+  border: none;
+}
+
 .rating span {
   margin: 0.1rem;
 }
@@ -26,6 +53,12 @@ h2 {
 .carousel-item.active {
   display: flex;
 }
+
+.carousel-control-prev span,
+.carousel-control-next span {
+  filter: brightness(0);
+}
+
 .carousel-caption {
   position: absolute;
   top: 0;
@@ -39,13 +72,21 @@ h2 {
   height: 300px;
   padding: 30px;
   margin: 40px;
-  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 .carousel a {
   margin: 0 auto;
 }
+
+.carousel-caption h2 {
+  color: var(--secondary-color);
+}
+
+.carousel-indicators li {
+  background-color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   .carousel-caption h2 {
     font-size: 2.5vw;

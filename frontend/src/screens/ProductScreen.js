@@ -70,10 +70,10 @@ const ProductScreen = ({ history, match }) => {
         <>
           <Meta title={product.name} />
           <Row>
-            <Col md={6}>
+            <Col md={5}>
               <Image src={product.image} alt={product.name} fluid />
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <ListGroup variant='flush'>
                 <ListGroup.Item>
                   <h3>{product.name}</h3>
@@ -120,6 +120,7 @@ const ProductScreen = ({ history, match }) => {
                             as='select'
                             value={qty}
                             onChange={(e) => setQty(e.target.value)}
+                            style={{ width: 'auto' }}
                           >
                             {[...Array(product.countInStock).keys()].map(
                               (x) => (
@@ -149,7 +150,7 @@ const ProductScreen = ({ history, match }) => {
             </Col>
           </Row>
           <Row>
-            <Col md={6}>
+            <Col className='my-4'>
               <h2>Reviews</h2>
               {product.reviews.length === 0 && <Message>No Reviews</Message>}
               <ListGroup variant='flush'>
