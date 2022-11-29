@@ -1,6 +1,6 @@
 [VIEW WEBSITE](https://johnnyandco.uc.r.appspot.com/)
 
-This is an E-Commerce website created with MERN stack.
+Johnny & Co. is an E-Commerce website created with MERN stack.
 
 -Create/ Update/ Delete products
 
