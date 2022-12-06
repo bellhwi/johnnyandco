@@ -16,10 +16,6 @@
 - 👩🏻 User profile with orders
 - 🚚 Checkout process (shipping, payment method, etc)
 
-## Docs
-
-📄 Read the [Google Docs](https://docs.google.com/document/d/1cCmYlvT7zN1VVJ4X7mH-5sxntNe4PvYZ5K1fgKZWyMg/edit?usp=share_link) that explains how to approach coding problems and solve it.
-
 ## Tech
 
 <p align="left">
