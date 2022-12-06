@@ -2,7 +2,7 @@
 
 > [Johnny&Co.](https://haxalabs.com/) is an eCommerce website created with MERN stack 💍
 
-<p align="center"><img src="github-cover.png" width="50%"></p>
+<p align="center"><img src="github-cover.png" width="30%"></p>
 
 ## Features
 
